@@ -1,0 +1,109 @@
+    * {
+    /* アスタリスク = 全部 … 全部の要素から余計な余白をとる */
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    /* ブラウザ縦幅いっぱいにする準備 */
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    background: #EAEAE0;
+}
+
+main {
+    /*mainタグに対する命令*/
+    background-image: url(../img/warlen-g-vasco-3248.jpg);
+    /*背景画像*/
+    background-color: ;
+    /*#ffffff*/
+    background-size: cover;
+    /*背景を横幅いっぱいに*/
+    background-blend-mode: overlay;
+    /*背景色と背景画像をブレンド multiply, screen*/
+    background-position: center center;
+    text-align: center;
+    /*文字を中央に*/
+    height: 100%;
+    /*ブラウザの高さいっぱいに*/
+    padding-top: 100px;
+    /*上の余白*/
+}
+
+main h1 {
+    /*mainタグの中のh1に対する命令*/
+    color: #ffffff;
+    /*文字の色*/
+    font-size: 8rem;
+    /*文字サイズ*/
+    font-family: 'Roboto', sans-serif;
+    /*フォント指定*/
+    margin-bottom: 40px;
+    /*下の余白*/
+}
+
+.btn-link {
+    /*btn-linkというクラスに対する命令*/
+    color: #fff;
+    border: 1px solid #fff;
+    /*枠線 = 線の幅 線の種類 線の色*/
+    padding: 10px 100px;
+    /*余白 = 上下 左右*/
+    border-radius: 5px;
+    /*角の丸み*/
+    text-decoration: none;
+    /*リンクの下線を消す*/
+    transition: all 0.3s;
+    /*ホバーに0.3秒かける*/
+    display: inline-block;
+    /*インラインブロックにする ※要注意　*/
+    margin-bottom: 100px;
+}
+
+.btn-link:hover {
+    /*.btn-linkにマウスで触ったときの命令*/
+    background: #000;
+    /*触った時の背景色*/
+    border-color: #000;
+    /*触った時の線の色*/
+}
+
+
+/*なぜ要素たちが真ん中に行かないのか？質問しようn*/
+.container {
+    width: 400px;
+    margin: auto;
+    list-style-type: none;
+}
+
+nav {
+    margin-bottom: 30px;
+    background: #00336D;
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 16px;
+    display: block;
+    transition: 0.5s;
+}
+
+nav li {
+    float: left;
+    list-style-type: none;
+    color: #fff;
+}
+
+nav a:hover {
+    background: #fff;
+    color: #00336D;
+}
+
+.title {
+        text-align: center;
+        color: #00336D;
+        font-size: 30px;
+    }
